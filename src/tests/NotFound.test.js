@@ -4,7 +4,7 @@ import App from '../App';
 import renderWithRouter from './renderWithRouter';
 
 describe('Teste o componente <NotFound.js />', () => {
-  beforeEach(() => { 
+  beforeEach(() => {
     const { history } = renderWithRouter(<App />);
     history.push('/duvidoqueexisteessapagina');
   });
